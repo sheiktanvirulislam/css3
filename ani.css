@@ -1,0 +1,36 @@
+@keyframes motionin{
+   0%{
+      left: 0px;
+      top:0px;
+      background-color: blueviolet;   
+    }
+   50%{
+       left: 100px;  
+       top: 170px;
+       background-color: deeppink;
+   } 
+   100%{
+       left:600px;
+       top: 0px;
+       background-color: black;  
+    }
+
+}
+.ball{
+   width: 10px;
+   height: 10px;
+   font-size: 23px;
+   background-color: blue;
+   position: absolute;
+    
+
+}
+.stage{
+   background-color: burlywood;
+   height: 250px;
+   min-width: 70px;
+   
+}
+.stage:hover .ball{
+    animation: motionin 3s ease-in 0.2s 3 alternate;
+}

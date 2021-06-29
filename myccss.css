@@ -1,0 +1,19 @@
+.box{
+   width: 40px;
+   height: 50px ;
+   border: 1px solid royalblue ;  
+
+
+
+}
+.inner{
+   background-color: salmon;
+   transform: rotate(30deg) scale(1.5);
+}
+.outer{
+  background-color: seagreen;
+  transform: scale(2) rotate(30deg);
+  
+  
+
+}

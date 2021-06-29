@@ -1,0 +1,21 @@
+.grid-container{
+    display: grid; 
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    
+    grid-template-columns:repeat(3,1fr);
+    
+    
+    border: 2px solid green ;
+   
+    
+}
+.head{
+    text-align: center;
+    color:cadetblue; 
+    font-size: 40px;
+    
+
+}
